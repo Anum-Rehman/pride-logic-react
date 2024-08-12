@@ -1,0 +1,18 @@
+.analog_clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    // width: 40vw;
+    // height: 80vh;
+    // border-radius: 100%;
+    // background-color: gray;
+    opacity: 0.3;
+    // box-shadow: inset rgb(15 4 4 / 100%) 0px 0px 95px -12px;
+
+    &_needles {
+        font-size: 150px;
+        color: white;
+        opacity: 1;
+    }
+}
